@@ -20,9 +20,14 @@
 .ul-menu li {
     display: inline;
     margin-left: 20px;
+}
+
+a {
     font-size: 14px;
     color: rgba(98, 98, 98, 255);
-    text-align: center; 
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
 }
 
 a:link {
@@ -63,22 +68,6 @@ h2 {
     width: 966px;
 }
 
-
-
-button {
-    font-size: 20px;
-    color: rgba(98, 98, 98, 255);
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    font-family: PlayfairDisplay-Regular;
-    border: 1px solid #626262;
-    width: 164px;
-    height: 60px;
-    margin-right: 442px;
-    margin-bottom: 70px;
-}
-
 .text-text {
     font-family: PlayfairDisplay;
     font-size: 14px;
@@ -93,4 +82,18 @@ p {
     color: rgba(98, 98, 98, 255);
     text-align: left;
     margin-bottom: 54px;
+}
+
+button {
+    font-size: 20px;
+    color: rgba(98, 98, 98, 255);
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    font-family: PlayfairDisplay-Regular;
+    border: 1px solid #626262;
+    width: 164px;
+    height: 60px;
+    margin-right: 442px;
+    margin-bottom: 70px;
 }
