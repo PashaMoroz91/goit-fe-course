@@ -6,14 +6,15 @@
     box-sizing: border-box;
 }
 
-header {
-    width: 906px;
+.container {
     margin: 0 auto;
+    width: 900px;
 }
 
-header {
-    margin-top: 78px;
-    margin-bottom: 100px;
+.header {
+    text-align: center;
+    padding-top: 78px;
+    padding-bottom: 100px;
 }
 
 a {
@@ -34,7 +35,6 @@ a:hover {
     margin: 0 auto;
     list-style: none;
     font-size: 0;
-    padding-left: 160px;
 }
 
 .menu li{
@@ -46,15 +46,10 @@ a:hover {
     margin-right: 0;
 }
 
-main {
-    width: 906px;
-    margin: 0 auto;
-}
-
 section {
     display: inline-block;
     font-size: 0;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 
 article {
@@ -68,13 +63,16 @@ article:nth-child(even) {
     margin-right: 0;
 }
 
+.pic {
+    margin-bottom: 32px;
+}
+
 .text-title {
     font-family: 'Ubuntu', sans-serif; 
     font-size: 14px;
     color: #c8c3b8;
     text-align: left;
     text-transform: uppercase;
-    margin-top: 32px;
     margin-bottom: 28px;
 }
 
