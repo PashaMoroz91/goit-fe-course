@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+header {
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 38px;
+    margin-bottom: 100px;
+}
+
+.logo {
+    display: block;
+    text-decoration: none;
+    font-size: 30px;    
+    line-height: 32px;
+    font-family: "Roboto";
+    color: #555252;
+    font-weight: 300;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+    float: left;
+}
+
+.logo::first-letter {
+    font-weight: 900;
+    font-family: "Roboto";
+    color: #1abc9c;
+}
+
+ul.menu {
+    float: right;
+    list-style: none; 
+    margin-top: 10px;       
+}
+
+li.menu-item {    
+    float: left;
+}
+
+li.menu-item:not(:last-child) {    
+    margin-right: 33px;
+}
+
+.menu-link {
+    display: block;
+    text-decoration: none;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+    line-height: 11px;
+    color: #0f0101;
+}
+
+.menu-link:hover {
+    color: #1abc9c;
+}
+
+.slider{
+    background-image: url(../img/SliderBG.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.conteiner-slider{
+    position: relative;
+    height: 600px;
+}
+
+.slider-ctrl{    
+    width: 104px;
+    height: 104px;
+    position: absolute;
+    border: none;
+    background-color: #1abc9c77;    
+    background-repeat: no-repeat;
+    background-position: center;    
+    top: 50%;
+    transform: translateY(-50%);    
+}
+
+.slider-ctrl:hover{
+    background-color: #1abc9c;
+    transition: 0.2s;
+}
+
+.left{
+    left: 180px;
+    background-image: url(../img/img-icon/icon-prew.png);          
+}
+
+.right{
+    right: 180px;
+    background-image: url(../img/img-icon/icon-next.png);     
+}
+
+.slider-text {
+    position: absolute;
+    left: 385px;
+    top: 230px;
+    font-family: 'Roboto';
+    font-weight: 900;
+    color: #fff;
+    font-size: 40px;    
+    letter-spacing: -0.2px;
+}
+
+.slider-text-second { 
+    display: block;
+    font-weight: 300;
+    font-size: 24px;
+    padding-top: 20px;
+}
+
+.new-collection { 
+    background-color: #e9f0fd;
+    padding-bottom: 100px;
+}
+
+.new-collection-title {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 38px;
+    text-align: center;
+    color: #515151;
+    margin-bottom: 80px;
+    padding-top: 100px; 
+}
+
+.new-collection-title::after {
+    content: '';
+    display: block;
+    width: 164px;
+    height: 7px;
+    margin: 32px auto 0;
+    background-color: #1abc9c; 
+}
+
+.card-list {
+    list-style: none;        
+}
+
+.card {
+    position: relative;   
+    float: left;
+    width: 255px;
+    height: 322px;    
+    margin-right: 30px;   
+}
+
+.card:last-child {
+    margin-right: 0;
+}
+
+.img-card {
+    position: relative;
+}
+
+.card-info {
+    position: absolute;    
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 13px;
+    letter-spacing: -0.2px;
+    bottom: 0;
+}
+
+.card-name {    
+    width: 201px;
+    height: 40px;
+    box-sizing: border-box;    
+    padding-top: 14px;
+    padding-left: 14px;
+    float: left;
+    background-color: #323232;    
+}
+
+.card-price {    
+    width: 54px;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 14px;
+    background-color: #858584;
+    float: left;   
+}
+
+.card:hover .card-name {
+    background-color: #1abc9c;
+    transition: 0.1s;
+}
+
+.card:hover .card-price {
+    background-color: #7fd9c7;    
+    transition: 0.1s;
+}
+
+.card-overlay {
+    position: absolute;
+    width: 235px;
+    height: 262px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.55);
+    outline: 10px solid rgba(255, 255, 255, 0.55);
+    z-index: 1;
+    left: 10px;
+    top: 10px;
+    opacity: 0;
+}
+
+.card:hover .card-overlay {
+    opacity: 1;
+    transition: 0.1s;
+}
+
+.icon-list {
+    position: absolute;        
+    left: 30px;
+    top: 79px;    
+}
+
+.icon-items:not(:last-child) {
+    list-style: none;       
+    border: 1px solid #fff;
+    margin-right: 9px;
+    margin-bottom: 7px;
+    float: left;
+}
+.icon-items:not(:last-child):hover {
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: #1abc9c;
+}
+
+.icon-items:last-child {
+    list-style: none;
+    display: inline-block;
+    width: 166px;    
+    border: 1px solid #fff;    
+}
+
+.icon-items:last-child:hover {
+    background-color: #323232;
+    transition: 0.2s;
+}
+
+.icon {
+    background-color: #55525200;
+    border: none;
+    display: block;    
+    width: 48px;
+    height: 48px;
+}
+
+.hart {
+    background-image: url(../img/img-icon/icon-hart.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.pointer {
+    background-image: url(../img/img-icon/icon-pointer.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.clock {    
+    background-image: url(../img/img-icon/icon-clock.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hart .pointer .clock:hover {
+    background-color: #1abc9c;
+}
+
+.icon-shopping {
+    display: block;
+    height: 43px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;    
+    text-transform: uppercase;   
+    padding-left: 12px;
+    padding-top: 3px;    
+}
+
+.icon-shopping::before {
+    content: '';    
+    display: inline-block;
+    width: 28px;
+    height: 26px;    
+    margin-right: 20px;
+    background-image: url(../img/img-icon/shopping-cart.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: 7px;    
+}
+
+footer {
+    background-color: #323232;
+    padding-top: 36px;
+    padding-bottom: 36px;
+}
+
+.footer-info {
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: -0.2px;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #46bfa9;
+    margin-left: 5px;
+}
