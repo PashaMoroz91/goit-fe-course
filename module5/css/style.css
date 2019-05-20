@@ -127,6 +127,11 @@ li.menu-item:not(:last-child) {
     padding-bottom: 100px;
 }
 
+.conteiner {
+    width: 1110px;
+    margin: 0 auto;
+}
+
 .new-collection-title {
     font-family: 'Roboto';
     font-weight: 900;
