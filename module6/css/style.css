@@ -13,7 +13,6 @@
     justify-content: space-between;
     margin: 0 auto;
     min-height: 66px;
-    /* align-items: flex-end; */
     padding-top: 30px;
 }
 
@@ -220,6 +219,10 @@ h4 {
 
 .img-card {
     margin-right: 27px;
+}
+
+.img-card:last-child {
+    margin-right: 0;
 }
 
 .card {
