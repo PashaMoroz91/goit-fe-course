@@ -21,8 +21,8 @@
     font-style: italic;
     font-weight: 400;
     src: local('Montserrat Italic'), local('Montserrat-Italic'),
-         url('../fonts/montserrat-v13-latin/montserrat-v13-latin-italic.woff2') format('woff2'),
-         url('../fonts/montserrat-v13-latin/montserrat-v13-latin-regular.woff') format('woff'); 
+         url('../fonts/montserrat-v13-latin-italic.woff2') format('woff2'),
+         url('../fonts/montserrat-v13-latin-regular.woff') format('woff'); 
 }
 
 @font-face {
@@ -30,8 +30,8 @@
     font-style: normal;
     font-weight: 100;
     src: local('Roboto Slab Thin'), local('RobotoSlab-Thin'),
-         url('../fonts/roboto-slab-v8-latin/roboto-slab-v8-latin-100.woff2') format('woff2'),
-         url('../fonts/roboto-slab-v8-latin/roboto-slab-v8-latin-100.woff') format('woff'); 
+         url('../fonts/roboto-slab-v8-latin-100.woff2') format('woff2'),
+         url('../fonts/roboto-slab-v8-latin-100.woff') format('woff'); 
 }
 
 @font-face {
@@ -39,8 +39,8 @@
     font-style: normal;
     font-weight: 300;
     src: local('Roboto Slab Light'), local('RobotoSlab-Light'),
-         url('../fonts/roboto-slab-v8-latin/roboto-slab-v8-latin-300.woff2') format('woff2'), 
-         url('../fonts/roboto-slab-v8-latin/roboto-slab-v8-latin-300.woff') format('woff'); 
+         url('../fonts/roboto-slab-v8-latin-300.woff2') format('woff2'), 
+         url('../fonts/roboto-slab-v8-latin-300.woff') format('woff'); 
 }
 
 @font-face {
@@ -48,8 +48,8 @@
     font-style: normal;
     font-weight: 400;
     src: local('Roboto Slab Regular'), local('RobotoSlab-Regular'),
-         url('../fonts/roboto-slab-v8-latin/roboto-slab-v8-latin-regular.woff2') format('woff2'), 
-         url('../fonts/roboto-slab-v8-latin/roboto-slab-v8-latin-regular.woff') format('woff'); 
+         url('../fonts/roboto-slab-v8-latin-regular.woff2') format('woff2'), 
+         url('../fonts/roboto-slab-v8-latin-regular.woff') format('woff'); 
 }
 
 @font-face {
@@ -57,8 +57,8 @@
     font-style: normal;
     font-weight: 700;
     src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'),
-         url('../fonts/roboto-slab-v8-latin/roboto-slab-v8-latin-700.woff2') format('woff2'),
-         url('../fonts/roboto-slab-v8-latin/roboto-slab-v8-latin-700.woff') format('woff'); 
+         url('../fonts/roboto-slab-v8-latin-700.woff2') format('woff2'),
+         url('../fonts/roboto-slab-v8-latin-700.woff') format('woff'); 
 }
 
 * {
@@ -161,17 +161,20 @@
 .section-map {
     min-height: 670px;
     background-color: #222222;
+    background-image: url(../img/Map-img.png);
+    background-repeat: no-repeat;
+    background-position: right bottom 20px;
     padding-top: 105px;
     position: relative;
 }
 
-.section-map::after {
+/* .section-map::after {
     position: absolute;
     display: inline-block;
     content: url(../img/Map-img.png);
     top: 120px;
     right: 0;
-}
+} */
 
 .box {
     display: flex;
