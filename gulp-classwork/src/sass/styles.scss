@@ -1,0 +1,62 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+@import './varibables.scss';
+
+%button-new {
+   color: black;
+   width: 200px;
+   background-color: yellow;
+   padding:  50px;
+}
+
+$colors: (
+   sexy: #fa6acc,
+   glamour: #a52bc1,
+   sky: #09a6e4
+);
+
+.title {
+   color: $title-color;
+   font-size: $title-fs;
+}
+
+.header {
+   width: 900px;
+   height: 500px;
+   background-color: green;
+   .nav {
+      width: 600px;
+      height: 300px;
+      background-color: blue;
+      .title {
+         color: $title-color;
+         font-size: $title-fs;
+      }
+   }
+   &__button {
+      @extend %button-new;
+   }
+}
+
+.button {
+   @extend %button-new;
+   color: red;
+   font-size: 30px;
+}
+
+.header {
+   width: 900px;
+   height: 500px;
+   background-color: map-get($colors, sexy);
+   &__nav {
+      width: 600px;
+      height: 300px;
+      background-color: blue;
+      &__title {
+         color: $title-color;
+         font-size: $title-fs;
+      }
+   }
+}
