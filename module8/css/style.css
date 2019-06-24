@@ -50,6 +50,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0 auto;
     /* background: url(../img/Screen_1_BG.png)center/cover no-repeat;
     max-width: 100%; */
 }
@@ -71,11 +72,14 @@
     color: #ffffff;
     font-weight: 700;
     margin-right: 20px;
+    background: none;
+    border: none;
 }
 
 .log:hover {
     border: 2px solid #ffffff;
     border-radius: 100px;
+    padding: 10px 15px;
 }
 
 .sign {
@@ -100,6 +104,7 @@
     text-transform: uppercase;
     margin-bottom: 38px;
     display: block;
+    text-align: center;
 }
 
 .title {
