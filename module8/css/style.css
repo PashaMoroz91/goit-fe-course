@@ -40,13 +40,18 @@
          url('../fonts/roboto-v19-latin-regular.woff') format('woff');
 }
 
+.header {
+    background: url(../img/Screen_1_BG.png)center/cover no-repeat;
+    max-width: 100%;
+}
+
 .conteiner-header {
     padding: 20px 0 138px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(../img/Screen_1_BG.png)center/cover no-repeat;
-    max-width: 100%;
+    /* background: url(../img/Screen_1_BG.png)center/cover no-repeat;
+    max-width: 100%; */
 }
 
 .nav {
@@ -66,6 +71,11 @@
     color: #ffffff;
     font-weight: 700;
     margin-right: 20px;
+}
+
+.log:hover {
+    border: 2px solid #ffffff;
+    border-radius: 100px;
 }
 
 .sign {
@@ -89,6 +99,7 @@
     text-decoration: none;
     text-transform: uppercase;
     margin-bottom: 38px;
+    display: block;
 }
 
 .title {
