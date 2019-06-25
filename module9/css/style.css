@@ -1,0 +1,201 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v13-latin-regular.woff2')  format('woff2'), url('../font/montserrat-v13-latin-regular.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;    
+    src: url('../fonts/montserrat-v13-latin-700.woff2') format('woff2'), url('../font/montserrat-v13-latin-700.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/roboto-v19-latin-300.woff2') format('woff2'), url('../font/roboto-v19-latin-300.woff') format('woff');
+}
+  
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v19-latin-regular.woff2') format('woff2'), url('../font/roboto-v19-latin-regular.woff') format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {    
+    font-size: 10px;  
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    min-width: 320px;      
+}
+
+/* HEADER*/
+
+.dreams {
+    max-width: 100%;
+    background: url(../img/Screen_1_BG.png) center/cover no-repeat;
+    color: #fff;
+    margin: 0 auto;    
+}
+
+.nav-button-wrapper button {    
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;    
+    background: none;
+    cursor: pointer;        
+}
+
+.sign-up {
+    border: 2px solid #fff;
+    border-radius: 100px;
+    padding: 10px 15px;
+}
+
+.log-in {
+    border: none;
+    margin-right: 20px;
+}
+
+.logo {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;     
+}
+
+.main-title {
+    text-transform: uppercase;
+    font-size: 52px;   
+    padding: 0; 
+}
+
+.main-title-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;   
+}
+
+.find-partner {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #fff;    
+    background-color: #ff4e50;
+    padding: 15px 0;
+    border: none;
+    border-radius: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+    max-width: 294px;
+}
+
+/* HEADER*/
+/* SECTION PARTNER*/
+
+.partner {
+    max-width: 1440px;    
+    color: #333333;
+    margin: 0 auto;
+}
+
+.partner-title {
+    font-size: 22px;
+    text-align: center;
+    margin: 0 auto 20px;    
+}
+
+.partner-list {
+    list-style: none;    
+}
+
+
+.partner-list-item {
+    list-style: none;
+    text-align: center;       
+}
+
+
+.partner-foto-wrapper {
+    width: 122px;
+    height: 122px;
+    margin: 0 auto 20px;    
+    position: relative;
+}
+
+.partner-foto-link {
+    display: block;
+    position: absolute;
+    bottom: -4px;
+    right: -4px;
+    width: 40px;
+    height: 40px;          
+    border: 4px solid #fff;
+    border-radius: 50%;
+}
+
+.partner1 {
+    background: url(../img/icons/icon_parter_1.png) center /auto no-repeat #ff4e50;
+}
+
+.partner2 {
+    background: url(../img/icons/icon_parter_2.png) center /auto no-repeat #ffa507;
+}
+
+.partner3 {
+    background: url(../img/icons/icon_parter_3.png) center /auto no-repeat #1cd7ad;
+}
+
+.partner4 {
+    background: url(../img/icons/icon_parter_4.png) center /auto no-repeat #4e73db;
+}
+
+.partner-name {
+    font-size: 14px;
+    margin-bottom: 14px;
+}
+
+.partner-text {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    color: #c1c1c1;
+    text-align: center;
+}
+
+.other-partner {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ff4e50;    
+    background-color: transparent;
+    max-width: 294px;
+    padding: 12px 70px 10px;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    margin: 0 auto;
+    cursor: pointer;
+}

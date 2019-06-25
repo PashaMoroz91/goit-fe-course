@@ -1,0 +1,155 @@
+@media (max-width: 685px) {
+
+    .dreams {        
+        padding: 20px 0 138px 0;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column-reverse;        
+        margin-bottom: 38px;
+    }
+
+    .nav-button-wrapper {
+        margin-bottom: 120px;       
+    }
+
+    .main-title {           
+        margin-bottom: 20px;
+        font-size: 30px;        
+    }
+
+    .main-title-text {            
+        margin-bottom: 20px;
+        font-size: 18px;
+        padding: 0 34px;        
+    }
+
+    .partner {            
+        padding: 68px 0 58px 0;        
+    }
+
+    .partner-list {          
+        margin-bottom: 30px;
+    }
+
+    .partner-list-item {         
+        margin-bottom: 30px;
+    }
+    
+    .partner-list-item:last-child{
+        margin-bottom: 0;
+    }
+    
+}
+
+@media (min-width: 686px) and (max-width: 991px) {
+
+    .dreams {       
+        padding: 50px 0 234px;        
+    }
+
+
+    .menu {    
+        margin-bottom: 154px;        
+    }
+
+    .nav-button-wrapper {        
+        text-align: end;
+    }
+
+    .main-title {
+        margin-bottom: 40px;
+        text-align: center;        
+    }
+
+    .main-title-text {
+        margin-bottom: 34px;
+        padding: 0;
+        text-align: center;        
+    }
+
+    .partner {
+        padding: 72px 0 40px; 
+    }
+
+    .partner-title {
+        margin-bottom: 36px;
+    }
+
+    .partner-list {        
+        margin: 0 auto 40px;
+    }
+
+    .partner-list-item {
+        margin-bottom: 56px;
+    }
+
+    .partner-list-item:nth-child(even){
+        margin-bottom: 0;
+    }
+
+    .partner-list-item:nth-child(2) {
+        order: 2;
+    }
+
+    .partner-list-item:nth-child(3) {
+        order: 1;
+    }
+
+    .partner-list-item:nth-child(4) {
+        order: 3;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .dreams {       
+        padding: 50px 0 234px;
+    }
+
+    .menu {    
+        margin-bottom: 154px;        
+    }
+
+    .nav-button-wrapper {        
+        text-align: end;
+    }
+
+
+    .main-title {
+        margin-bottom: 40px;
+        text-align: center;        
+    }
+
+    .main-title-text {
+        margin-bottom: 34px;
+        text-align: center;             
+    }
+
+    .partner {
+        padding: 70px 0 74px; 
+    }    
+
+    .partner-list {              
+        margin-bottom: 38px;       
+    }
+
+    .partner-list-item {
+        margin-bottom: 0;
+    }
+
+    .partner-list-item:nth-child(2) {
+        order: 2;
+    }
+
+    .partner-list-item:nth-child(3) {
+        order: 1;
+    }
+
+    .partner-list-item:nth-child(4) {
+        order: 3;
+    }
+    
+}
